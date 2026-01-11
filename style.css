@@ -29,10 +29,16 @@ header {
 }
 
 nav a {
-    margin: 0 12px;
+    margin: 0 5px;
     text-decoration: none;
     color: var(--text);
     white-space:nowrap;
+    font-size: 11px;
+}
+nav{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .hero {
