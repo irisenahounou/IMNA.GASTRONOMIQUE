@@ -29,16 +29,10 @@ header {
 }
 
 nav a {
-    margin: 0 5px;
+    margin: 0 12px;
     text-decoration: none;
     color: var(--text);
-    white-space:nowrap;
     font-size: 11px;
-}
-nav{
-    margin-top: 15px;
-    display: flex;
-    justify-content: center;
 }
 
 .hero {
@@ -191,7 +185,14 @@ nav a {
 }
 @media (max-width: 600px) {
     nav a {
-        margin: 0 4px;   
-        font-size: 11px; 
+        margin: 0 4px !important;   
+        font-size: 11px !important; 
     }
+    nav {
+         white-space:nowrap !important;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+        
 }
