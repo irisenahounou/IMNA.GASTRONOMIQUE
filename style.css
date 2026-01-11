@@ -202,7 +202,7 @@ nav a {
         
 
 @media (max-width: 600px) {
-    h1 {
+    .hero h1 {
         font-size: 18px !important; /* On passe de 40px à 18px */
         margin: 0 10px !important; /* Ajoute 10px d'espace à gauche (logo) et à droite (menu) */
         white-space: nowrap; /* Empêche le titre de passer sur deux lignes */
