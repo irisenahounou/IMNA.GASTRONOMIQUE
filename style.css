@@ -185,3 +185,13 @@ input[type="search"], select, input, textarea {
     padding: 24px;
     margin: 0 auto;
 }
+nav a {
+    margin: 0 12px;
+    font-size: 14px;
+}
+@media (max-width: 600px) {
+    nav a {
+        margin: 0 4px;   
+        font-size: 11px; 
+    }
+}
